@@ -25,7 +25,7 @@ const Signup = () => {
       !inputData.password ||
       !inputData.phone
     ) {
-      alert("All Fields are Required!")
+      alert('All Fields are Required!')
     } else {
       setMsg(true)
       setTimeout(() => {
